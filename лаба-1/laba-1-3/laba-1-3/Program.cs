@@ -43,10 +43,10 @@ static void LINQ(int[] myarray, int number)
 					  .Distinct()
 					  .Where(x => x > 0 && x % 10 == number)
 					  .Reverse();
-	Console.WriteLine($"\n Result: ");
+	Console.WriteLine("\n Result: ");
 	foreach (int i in result)
 	{
-		Console.Write(i + $"\t");
+		Console.Write(i + "\t");
 	}
 }
 static void ActionsWithArray(int[] myarray)
@@ -54,6 +54,6 @@ static void ActionsWithArray(int[] myarray)
 	Console.WriteLine(" My array: ");
 	foreach (int number in myarray)
 	{
-		Console.Write(number + $"\t");
+		Console.Write(number + "\t");
 	}
 }
